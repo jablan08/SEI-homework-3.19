@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+h1  {
+    text-align: center;
+    font: Arial, sans-serif;
+}
+
+h3 {
+    color: #FF0000;
+}
+
+ul {
+    padding: 0;
+    margin: 0; 
+}
