@@ -15,7 +15,7 @@ for (let i = 0; i <= 98; i += 2) {
 }
 
 for (let i = 98; i >= 0; i--) {
-    if (i % 2 !== 0) {
+    if (i % 2 != 0) {
     console.log(i);
     }
 }

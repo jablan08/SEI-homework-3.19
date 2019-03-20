@@ -1,17 +1,45 @@
 body {
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 h1  {
     text-align: center;
     font: Arial, sans-serif;
 }
 
-h3 {
+li {
     color: #FF0000;
 }
 
-ul {
-    padding: 0;
-    margin: 0; 
+h3 {
+    text-transform: uppercase;
+    padding: 0px 5px;
+   
 }
+
+ul {
+    padding: 10px;
+    margin: 10px; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+  table {
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+  }
